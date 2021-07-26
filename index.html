@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+</head>
+
+      <body>
+        <div class="tm-main-content" id="top">
+            <div class="tm-top-bar-bg"></div>
+            <div class="tm-top-bar" id="tm-top-bar">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg narbar-light">
+                            <a class="navbar-brand mr-auto" href="#">
+                                <img src="img/logoind.jpg" alt="Site logo">
+                                Tourism
+                            </a>
+                            <button  type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-2">Top Destinations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-3">Recommended Places</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-4">Contact Us</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-5">Feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- .tm-top-bar -->
+
+        <div class="tm-page-wrap mx-auto">
+            <section class="tm-banner">
+                <div class="tm-container-outer tm-banner-bg">
+                    <div class="container">
+
+                        <div class="row tm-banner-row tm-banner-row-header">
+                            <div class="col-xs-12">
+                                <div class="tm-banner-header">
+                                    <h1 class="text-uppercase tm-banner-title">Let's begin</h1>
+                                    <img src="img/dots-3.png" alt="Dots">
+                                    <p class="tm-banner-subtitle">We assist you to choose the best.</p>
+                                </div>
+                            </div>  <!-- col-xs-12 -->
+                        </div> <!-- row -->
+                        <div class="row tm-banner-row" id="tm-section-search">
+
+                            <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
+                                <div class="form-row tm-search-form-row">
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="inputCity">Choose Your Destination</label>
+                                        <input name="destination" type="text" class="form-control" id="inputCity" placeholder="Type your Hotel Name...">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-1">
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-2">
+                                            <label for="inputRoom">How many Days?</label>
+                                            <select name="room" class="form-control tm-select" id="inputRoom">
+                                                <option value="1" selected>1 Room</option>
+                                                <option value="2">2 Rooms</option>
+                                                <option value="3">3 Rooms</option>
+                                                <option value="4">4 Rooms</option>
+                                                <option value="5">5 Rooms</option>
+                                                <option value="6">6 Rooms</option>
+                                                <option value="7">7 Rooms</option>
+                                                <option value="8">8 Rooms</option>
+                                                <option value="9">9 Rooms</option>
+                                                <option value="10">10 Rooms</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                            <label for="inputAdult">Adult</label>
+                                            <select name="adult" class="form-control tm-select" id="inputAdult">
+                                                <option value="1" selected>1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+
+                                            <label for="inputChildren">Children</label>
+                                            <select name="children" class="form-control tm-select" id="inputChildren">
+                                            	<option value="0" selected>0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div> <!-- form-row -->
+                                <div class="form-row tm-search-form-row">
+
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label for="inputCheckIn">Check In Date</label>
+                                        <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-3">
+                                        <label for="inputCheckOut">Check Out Date</label>
+                                        <input name="check-out" type="text" class="form-control" id="inputCheckOut" placeholder="Check Out">
+                                    </div>
+                                    <div class="form-group tm-form-group tm-form-group-pad tm-form-group-1">
+                                        <label for="btnSubmit">&nbsp;</label>
+                                        <button onclick="myFunction()" type="submit" class="btn btn-primary tm-btn tm-btn-search text-uppercase" id="btnSubmit">Check Availability</button>
+                                        <script>
+                                            function myFunction() {alert("Hello,Thank you!! If available We will Contact Soon");}
+                                        </script>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div> <!-- row -->
+                        <div class="tm-banner-overlay"></div>
+                    </div>  <!-- .container -->
+                </div>     <!-- .tm-container-outer -->
+            </section>
+
+            <section class="p-5 tm-container-outer tm-bg-gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 mx-auto tm-about-text-wrap text-center">
+                            <h2 class="text-uppercase mb-4">Your <strong>Journey</strong> is our priority</h2>
+                            <p class="mb-4">Travel as much as you can. As far as you can. As long as you can. Life’s not meant to be lived in one place.</p>
+                            <a href="#" class="text-uppercase btn-primary tm-btn">Continue explore</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="tm-container-outer" id="tm-section-2">
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="img/ajintha.jpg" alt="Image">
+                        <img src="img/fort.jpg" alt="Image">
+                        <img src="img/fort2.jpg" alt="Image">
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">Maharashtra Is Most Visited Place in INDIA</h2>
+                        <p>Maharashtra attracts tourists from different states and foreign countries. It was the First visited Indian state by foreigners and fourth most visited state by domestic tourists in the country in 2014. Aurangabad is the tourism capital of Maharashtra.</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+                <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+                    <div class="tm-right tm-slideshow tm-slideshow-highlight">
+                        <img src="img/kl1.jpg" alt="Image">
+                        <img src="img/kl2.jpg" alt="Image">
+                        <img src="img/kl3.jpg" alt="Image">
+                    </div>
+
+                    <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+                        <h2 class="">Kerala is the Tourism Attraction State in INDIA</h2>
+                        <p>Strategically located at the south western tip of India, Kerala enjoys unique geographic features which have made it one of the most popular tourist destinations in Asia.As a destination, Kerala can attract the independent traveller with its unique qualities like the pristine environment, the rich and vibrant culture and the high quality of life among the local inhabitants brought about by the states</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
+                    </div>
+
+                </section>
+                <section class="tm-slideshow-section">
+                    <div class="tm-slideshow">
+                        <img src="img/gj1.jpg" alt="Image">
+                        <img src="img/gj2.jpg" alt="Image">
+                        <img src="img/gj3.jpg" alt="Image">
+                    </div>
+                    <div class="tm-slideshow-description tm-bg-primary">
+                        <h2 class="">Gujrat's most famous places</h2>
+                        <p>Gujarat has always been a major centre for the Jains and some of its most interesting locations are the Jain Temple centres at Palitana and Girnar Hills. Besides the Jain temples, the state’s major attractions include the only habitat of the Asiatic Lions in India (Gir Forests), a desert ride at the Wild Ass Sanctuary and the beautiful Indo-Saracenic Architecture of Ahmedabad. The colourful tribal villages of Kutch make a visit unforgettable.</p>
+                        <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    </div>
+                </section>
+            </div>
+            <div class="tm-container-outer" id="tm-section-3">
+                <ul class="nav nav-pills tm-tabs-links">
+                    <li class="tm-tab-link-li">
+                        <a href="#1a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/ts.png" alt="Image" class="img-fluid">
+                            Telangana
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#2a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/tn.jpg" alt="Image" class="img-fluid">
+                            TamilNadu
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#3a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/ga.png" alt="Image" class="img-fluid">
+                            Goa
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#4a" data-toggle="tab" class="tm-tab-link active"><!-- Current Active Tab -->
+                            <img src="img/mh.png" alt="Image" class="img-fluid">
+                            Maharahstra
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#5a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/kl.jpg" alt="Image" class="img-fluid">
+                            Kerala
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#6a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/gj.png" alt="Image" class="img-fluid">
+                            Gujrat
+                        </a>
+                    </li>
+                    <li class="tm-tab-link-li">
+                        <a href="#7a" data-toggle="tab" class="tm-tab-link">
+                            <img src="img/rj.png" alt="Image" class="img-fluid">
+                            Rajasthan
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content clearfix">
+
+
+                    <!-- Tab 1 Telangana-->
+                    <div class="tab-pane fade show active" id="1a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/tsh1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Hotel NOVOTEL</h3>
+                                    <p class="tm-text-highlight">Hyderabad,Telangana</p>
+                                    <p class="tm-text-gray">t the new international airport, Novotel Hyderabad Airport is just 30 minutes from the city centre and 30 minutes drive from Hi Tech City, the Hyderabad Convention Centre, Banjara Hills and Jubilee Hills. Featuring 292 rooms and suites with free WiFi, business travelers can also enjoy the facilities of the Premier executive floor, along with the convenience of a restaurant,one bar, a pool and meeting rooms for up to 450 guests.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">5499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/tsh2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Telangana Heritage</h3>
+                                    <p class="tm-text-highlight">Hyderabad,Telangana</p>
+                                    <p class="tm-text-gray">Looking for the best accommodation at Telangana during your trip? We will guide you. Several property types offer a comfortable stay in Telangana. Staying at the heritage hotel properties offer a unique and pleasurable experience. These heritage hotels in Telangana provide a luxurious stay and are well-equipped with a large number of modern amenities. Such a place is perfect for a family vacation.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">6499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/tsh3.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Haritha Kakatiya</h3>
+                                    <p class="tm-text-highlight">Warangal,Telangana</p>
+                                    <p class="tm-text-gray">Everyone needs a place to lay their weary head. For travellers visiting Warangal, Haritha Kakatiya Hotel is an excellent choice for rest and rejuvenation.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">9000/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- tab-pane -->
+                     <!-- Tab 2  Tamilnadu-->
+                    <div class="tab-pane fade show active" id="2a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/tnh1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Hotel Four Points</h3>
+                                    <p class="tm-text-highlight">Mahabali,Chennai</p>
+                                    <p class="tm-text-gray">Luxurious Rooms,Window side View,Garden View,Chennai main Street View</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">6999/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/tnh2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Shalimar Spice Garden</h3>
+                                    <p class="tm-text-highlight">Amritara, Chennai</p>
+                                    <p class="tm-text-gray">Shalimar Spice Garden is a perfect blend of Indian and European living amidst the traditional Kerala heritage. This theme-based tourist lodge is designed in a traditional manner with lush foliage of cardamom, coffee and other spices growing around the resort. </p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">7499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/tnh3.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Anantya Resort</h3>
+                                    <p class="tm-text-highlight">Kaliel,TamilNadu</p>
+                                    <p class="tm-text-gray">Offering an outdoor swimming pool, a spa and wellness centre and a massage parlour, Anantya Resorts is surrounded in greenery. It provides authentic ayurvedic spa treatments. Free WiFi access is available in this resort.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">10000/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- tab-pane -->
+                     <!-- Tab 3 Goa-->
+                    <div class="tab-pane fade show active" id="3a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                         <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/gahotel.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Hotel W Goa</h3>
+                                    <p class="tm-text-highlight">Goa</p>
+                                    <p class="tm-text-gray">In tropical gardens near a beach, this opulent hotel is a 7-minute walk from the ruins of Chapora Fort and 44 km from Goa International Airport.
+                                        Refined, airy rooms feature private balconies or patios, and floor-to-ceiling windows. All have free Wi-Fi, flat-screen TVs, Bose speakers, and tea and coffeemaking facilities. Suites add separate living rooms. Villas are available. Room service is offered 24/7. Kids age 12 and under stay at no extra cost with an adult.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">6999/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/ga1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Taj Exotica</h3>
+                                     <p class="tm-text-highlight">Goa</p>
+                                    <p class="tm-text-gray">Attain complete relaxation in the landscaped grounds of the Taj Exotica, which lies on a private beach overlooking the Arabian Sea. Lush gardens, flower patios, old-world architecture, large banquet halls and sunshine-lined atriums all greet you here. Time will literally stop at this paradise that is just minutes away from Benaulim Beach.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">10000/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/ga2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                   <h3 class="tm-recommended-title">Suryakiran </h3>
+                                    <p class="tm-text-highlight">Panaji</p>
+                                    <p class="tm-text-gray">Featuring a shared lounge, garden and views of garden, Surya Kiran Heritage Hotel is located in Panaji, 1.7 km from Miramar Beach. Very comfortable and peaceful place. The staff are super attentive</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">10000/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                         </div>
+                    </div> <!-- tab-pane -->
+                     <!-- Tab 4 Maharashtra -->
+                    <div class="tab-pane fade show active" id="4a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/mhh1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">LemonTree Hotel</h3>
+                                    <p class="tm-text-highlight">Pune, Maharashtra</p>
+                                    <p class="tm-text-gray">Lemon Tree Hotels is a hotel chain company based in India. It is India's largest hotel chain in the mid-priced hotel sector, and the 3rd largest overall, in terms of controlling interest in owned and leased rooms, as of 30 June 2017, according to the Horwath Report.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">5499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/tajhotel.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Taj Hotel</h3>
+                                    <p class="tm-text-highlight">Mumbai, Maharashtra</p>
+                                    <p class="tm-text-gray">Embodying the spirit of “Tajness”, authentic original palaces, landmark hotels, idyllic resorts and natural safari lodges interpret the tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.  </p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">9999/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/mhh2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Royal Palace</h3>
+                                    <p class="tm-text-highlight">Jalgaon,Maharashtra</p>
+                                    <p class="tm-text-gray">Hotel Royal Palace is your ideal choice of abode as we will make your stay memorable and royal. Whether you are in Jalgaon for a business trip or visiting elaborated architectural carving in Ajanta. Hotel Royal Palace offers superbly appointed rooms with classical decor and the ambience make these rooms an ideal choice for the discerning business traveler.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">4999/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- tab-pane -->
+                     <!-- Tab 5 Kerala-->
+                    <div class="tab-pane fade show active" id="5a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/kh1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Blanket Hotel & Spa</h3>
+                                    <p class="tm-text-highlight">Kerala</p>
+                                    <p class="tm-text-gray">On a leafy hill station surrounded by tea plantations, this luxurious resort is a 12-minute walk from Attukad Waterfall and 2 km from the NH85. </p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">3499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/kh2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Pallak Hotel</h3>
+                                    <p class="tm-text-highlight">Thiruvanamthapuram, Kerala</p>
+                                    <p class="tm-text-gray">As we reached the backwaters, which was also, the most anticipated destination of our trip, I could feel my heart beating faster. And as we boarded the private boat house for sightseeing and stay, I knew this was a start to something beautiful  </p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">6499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+
+                            <div class="tm-recommended-place">
+                                <img src="img/khh3.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Hotel Wayanand</h3>
+                                    <p class="tm-text-highlight">Thiruvananthapuram,Kerala</p>
+                                    <p class="tm-text-gray">Wayanad Wind Resort is Wayanad's embellishment. A place of nature where romance emanates and life moves at a slower pace to allow time to rekindle old relationships and to start new ones in an enchanting way. Our cottages have large screened windows that open up to bring nature inside. Light flows through the interiors, </p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">11999/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div> <!-- tab-pane -->
+                     <!-- Tab 6 Gujrat -->
+                    <div class="tab-pane fade show active" id="6a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/gjhotel.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Ramada Hotel</h3>
+                                    <p class="tm-text-highlight">Ahemedabad,Gujrat</p>
+                                    <p class="tm-text-gray">Ramada International Hotels & Resorts, operating outside of North America, is one of Marriott International's 12 lodging brands. Currently, Ramada International properties are located in 13 countries around the world.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">3499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/gh1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Hotel Kinara</h3>
+                                    <p class="tm-text-highlight">RiverSide,Gujrat</p>
+                                    <p class="tm-text-gray">Hotel Akbars KinaraHospitality is our Business. In General,the Hotel's lobby and rooms are designed to replicate the best of the modern themes. the food and Beverage outlets are innovative, hi-tech facilities are provided for business meetings/ seminars/ weddings and complete fitness club is set to cater the needs of our health conscious guests.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">6499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place-wrap">
+                            <div class="tm-recommended-place">
+                                <img src="img/gh2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Akbar Hotel</h3>
+                                    <p class="tm-text-highlight">Gandhidham,Gujrat</p>
+                                    <p class="tm-text-gray">You can also enjoy an on-site restaurant while staying at Hotel Kinara. Need a place to park? Free parking is available at Hotel Kinara.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">7499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div> <!-- tab-pane -->
+                     <!-- Tab 7 Rajasthan -->
+                    <div class="tab-pane fade show active" id="7a">
+                    <!-- Current Active Tab WITH "show active" classes in DIV tag -->
+                        <div class="tm-recommended-place-wrap">
+                           <div class="tm-recommended-place">
+                                <img src="img/rjhotel.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Hotel Heritage</h3>
+                                    <p class="tm-text-highlight">Jaipur,Rajasthan</p>
+                                    <p class="tm-text-gray">This heritage hotel is just as lovely as it looks in the photos, and despite being on a main road, is a wonderful respite from the hustle and bustle of Jaipur’s traffic and streets.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">3499/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/rjh1.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Devi Ratn - IHCL SeleQtions</h3>
+                                    <p class="tm-text-highlight">Jaipur,Rajasthan</p>
+                                    <p class="tm-text-gray">With a backdrop of the Aravalli mountains, Devi Ratn lives the story of a dramatic Jaipur across its 20 acres, blending heritage with a design vision of the future. 45 minutes from the airport, it presents the Pink City in a manner so unusual, that it feels like a whole new universe. With design, geometry & surreal experiences, Devi Ratn narrates an astronomical story. </p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">6050/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                            <div class="tm-recommended-place">
+                                <img src="img/rjh2.jpg" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">Fairmont Jaipur</h3>
+                                    <p class="tm-text-highlight">Jaipur Delhi-Highway,Rajasthan</p>
+                                    <p class="tm-text-gray">Fairmont Jaipur is an ode to the pink city through awe inspiring architecture and decor, inspired by the Mughal dynasty and Royal Rajputs of yore. This luxury Jaipur hotel is nestled amongst the majestic Aravalli hills, all 245 rooms and suites are elegantly appointed, to reflect a perfect blend of traditional Rajasthani decor and modern amenities.</p>
+                                </div>
+                                <a href="#" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">12040/day</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>
+                            </div>
+                    </div> <!-- tab-pane -->
+
+                </div>
+            </div>
+
+            <div class="tm-container-outer tm-position-relative" id="tm-section-4">
+                <div id="google-map"></div>
+                <form action="index.html" method="post" class="tm-contact-form">
+                    <h2 class="tm-text-gray" >We Help to find Best Place for Trip Please Contact with us..</h2>
+                    <div class="form-group tm-name-container">
+                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                    </div>
+                    <div class="form-group tm-email-container">
+                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                        </div>
+                            <button onclick="myFunction()" type="submit" class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase">Send Message Now</button>
+                            <script>
+                                function myFunction() {alert("Hello,Thank you!! We will Contact Soon");}
+                            </script>
+                        </div>
+                </form>
+            </div>
+            <!-- .tm-container-outer -->
+             <div class="tm-container-outer tm-position-relative" id="tm-section-5">
+                <div id="google-map"></div>
+                <form action="index.html" method="post" class="tm-contact-form">
+                    <h2 class="tm-text-gray" >How is Our Service Feedback Us..</h2>
+                    <div class="form-group tm-name-container">
+                        <input type="text" id="name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                    </div>
+                    <div class="form-group tm-email-container">
+                        <input type="email" id="maildid" name="contact_email" class="form-control" placeholder="Email"  required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="mobno" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="feedback" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                        </div>
+                            <button onclick="myFun()" type="submit" class="btn btn-primary tm-btn-primary tm-btn-send text-uppercase">Send Feedback</button>
+                            <script>
+                                function myFun() {alert("Hello,Thank you!! For Review Us");}
+                            </script>
+                        </div>
+                </form>
+            </div>
+            <!-- .tm-container-outer -->
+
+            <footer class="tm-container-outer">
+                <p class="mb-0">Copyright © <span class="tm-current-year">2021</span>
+
+                . Designed by <a rel="nofollow" target="_parent">Dnyaneshwar Borole</a></p>
+            </footer>
+        </div>
+      </body>
+</html>
